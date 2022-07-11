@@ -12,7 +12,7 @@
     "start": "yarn build && env-cmd concurrently \"yarn watch\" \"yarn workspace gatekeeper start\" \"yarn workspace website start\"",
     "check": "eslint --cache . && prettier --check . && tsc",
     "fix": "eslint --cache --fix . && prettier --write .",
-    "postinstall": "husky install",
+    "postinstall": "npx husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
