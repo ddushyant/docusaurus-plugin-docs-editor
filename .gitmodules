@@ -1,6 +1,6 @@
 [submodule "preview/website"]
 	path = preview/website
-	url = https://github.com/jlvandenhout/docusaurus-plugin-docs-editor-preview.git
+	url = https://github.com/ddushyant/docusaurus-plugin-docs-editor-preview.git
 	branch = main
 [submodule "preview/server"]
 	path = preview/server
